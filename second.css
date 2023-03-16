@@ -239,12 +239,16 @@ button:hover{
     }
     .tachbar{
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
         width: 100vw;
+        height: 10vh;
         gap: 10px;
         margin-top: 5px;
-        margin-left: 8px;
-        background: none;
-        top:60%;
+        margin-left: 0px;
+        background: black;
+        top:89%;
+        left: 0%;
         z-index: 100;
         position: fixed;
     }
