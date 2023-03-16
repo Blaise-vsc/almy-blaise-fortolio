@@ -243,5 +243,14 @@ button:hover{
         background: none;
         top: 5%;
     }
+    .items3 {
+        flex-direction: column;
+    }
+    .items01{
+        width: 60vw;
+    }
+    .section{
+        width: 90vw;
+    }
     
 }
