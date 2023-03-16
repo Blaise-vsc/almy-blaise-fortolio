@@ -261,6 +261,23 @@ button:hover{
         flex-wrap: nowrap;
         
     }
+    .betua {
+        font-family: 'Tilt Warp', cursive;
+        font-size: 25px;
+        color: #f0f2f6;
+    }
+    .section-1{
+        margin-left: 0px;
+        gap: 15px;
+    }
+    .items3-class3{
+        justify-content: space-around;
+        padding: 0px 2rem;
+    } 
+    .itemimage {
+        width: 50%;
+        height: 40%;
+    }
     .items01{
         width: 90vw;
         padding-top: 1.5rem;
@@ -277,9 +294,12 @@ button:hover{
     }
     p{
         font-size: 17px;
-        width: 80vw;
+        width: 85vw;
     }
     h1{
         font-size: 10px;
+    }
+    .profil{
+        left: 33%;
     }
 }
