@@ -245,6 +245,7 @@ button:hover{
     }
     .items3 {
         flex-direction: column;
+        gap: 40px;
     }
     .items01{
         width: 60vw;
