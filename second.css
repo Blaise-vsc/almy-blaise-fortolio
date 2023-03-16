@@ -220,13 +220,27 @@ button:hover{
 @media(max-width:1194){
     .tachbar{
         height: 90vh;
+        width: 8vw;
+        margin-left: 5px;
     }
 }
 @media(max-width:618px){
     header{
         display: none;
     }
-    /* .profil{
-        display: none;
+    body{
+        padding-top: 6rem;
     }
-} */
+    .bar1{
+        font-size: 6px;
+    }
+    .bar1 .bx{
+        font-size: 20px;
+    }
+    .tachbar{
+        margin-top: 15px;
+        margin-left: 8px;
+        background: none;
+    }
+    
+}
