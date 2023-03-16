@@ -215,3 +215,18 @@ button:hover{
     background-color: #636d82;
     color: #121417;
 }
+ 
+
+@media(max-width:1194){
+    .tachbar{
+        height: 90vh;
+    }
+}
+@media(max-width:618px){
+    header{
+        display: none;
+    }
+    .profil{
+        display: none;
+    }
+}
