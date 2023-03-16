@@ -276,8 +276,9 @@ button:hover{
         padding: 0px 2rem;
     } 
     .itemimage {
-        width: 50%;
-        height: 40%;
+        width: 60%;
+        height: 50%;
+        object-fit: cover;
     }
     .items01{
         width: 90vw;
@@ -303,5 +304,8 @@ button:hover{
     }
     .profil{
         left: 33%;
+    }
+    .section-1 p{
+        padding: 0px 10px;
     }
 }
