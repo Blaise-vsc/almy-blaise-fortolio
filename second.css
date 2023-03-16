@@ -238,10 +238,14 @@ button:hover{
         font-size: 20px;
     }
     .tachbar{
+        flex-direction: row;
+        width: 100vw;
+        gap: 10px;
         margin-top: 5px;
         margin-left: 8px;
         background: none;
-        top: 5%;
+        top:60%;
+        z-index: 100;
     }
     .items3 {
         flex-direction: column;
