@@ -239,8 +239,8 @@ button:hover{
     }
     .tachbar{
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
+        align-items: start;
+        justify-content: left;
         width: 100vw;
         height: 10vh;
         gap: 10px;
@@ -254,18 +254,30 @@ button:hover{
     }
     .items3 {
         flex-direction: column;
-        gap: 40px;
+        gap: 20px;
+        padding: opx;
+        align-items: start;
+        justify-content: left;
+        flex-wrap: nowrap;
+        
     }
     .items01{
         width: 60vw;
         padding-top: 1.5rem;
     }
     .section{
+        padding: 40px 5px;
         width: 90vw;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
     button{
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
-    
+    p{
+        font-size: 17px;
+        width: 80vw;
+    }
+    h1{
+        font-size: 10px;
+    }
 }
