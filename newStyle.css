@@ -373,6 +373,12 @@ button:hover {
   gap: 15px;
   margin-bottom: 4rem;
 }
+@media (max-width: 480px) {
+  .resumeContainer .containerDiv .textDiv {
+    margin-bottom: 2rem;
+    gap: 10px;
+  }
+}
 .resumeContainer .containerDiv .textDiv img {
   width: 300px;
   -o-object-fit: cover;
@@ -397,6 +403,15 @@ button:hover {
 .resumeContainer .containerDiv iframe:hover {
   border-bottom-left-radius: 45px;
   border-top-right-radius: 45px;
+}
+@media (max-width: 480px) {
+  .resumeContainer .containerDiv iframe {
+    width: 150%;
+  }
+  .resumeContainer .containerDiv iframe:hover {
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
 }
 @media (max-width: 480px) {
   .resumeContainer .containerDiv {

@@ -24,6 +24,10 @@
       flex-direction: column;
       gap: 15px;
       margin-bottom: 4rem;
+      @media (max-width: 480px) {
+        margin-bottom: 2rem;
+        gap: 10px;
+      }
 
       img {
         width: 300px;
@@ -48,6 +52,13 @@
       &:hover {
         border-bottom-left-radius: 45px;
         border-top-right-radius: 45px;
+      }
+      @media (max-width: 480px) {
+        width: 150%;
+        &:hover {
+          border-bottom-left-radius: 0px;
+          border-top-right-radius: 0px;
+        }
       }
     }
     @media (max-width: 480px) {
