@@ -401,7 +401,7 @@ button:hover {
 }
 .resumeContainer .containerDiv .textDiv p {
   font-size: 90%;
-  color: antiquewhite;
+  color: #a5b3ce;
 }
 .resumeContainer .containerDiv iframe {
   width: 90%;
@@ -476,7 +476,7 @@ button:hover {
   gap: 5px;
 }
 .videoDiv p {
-  color: beige;
+  color: #a5b3ce;
 }
 .videoDiv .iframe {
   width: 90%;
