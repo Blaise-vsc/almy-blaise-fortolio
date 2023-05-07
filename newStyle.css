@@ -354,6 +354,7 @@ button:hover {
 }
 @media (max-width: 480px) {
   .resumeContainer {
+    margin-bottom: 5rem;
     padding: 0px 20px;
   }
 }
